@@ -7,10 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        "primary" : "#0b9dad",
+      colors: {
+        "primary": "#0b9dad",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents }) {
+      addComponents({
+        '.button-lg-primary': {
+          width: '230px',
+          height: '70px',
+          backgroundColor: '#fff',
+          color: '#0b9dad',
+          border: 'none',
+          fontSize: '20px',
+          fontWeight: '700',
+        },
+      });
+    },
+  ],
 };
+
