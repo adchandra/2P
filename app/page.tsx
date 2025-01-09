@@ -58,6 +58,10 @@ export default function Home() {
                 </div>
                 <img src="/img/bg-hero.png" alt="Background beranda" className="absolute bottom-0 right-0 h-full z-0" />
             </section>
+
+            {/* Layanan */}
+
+            
         </>
     );
 }
