@@ -60,8 +60,6 @@ export default function Home() {
             </section>
 
             {/* Layanan */}
-
-            
         </>
     );
 }
