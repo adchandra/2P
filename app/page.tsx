@@ -105,26 +105,8 @@ export default function Home() {
                         <h2 className="text-4xl font-medium text-primary">Harga</h2>
                     </div>
 
-                        {/* Wrapper untuk Card */}
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {/* Card Harga 1 */}
-                        <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
-                            <img
-                            src="/img/layanan3.jpg"
-                            alt="Harga Atap Baja Ringan"
-                            className="w-72 rounded-lg shadow-lg mb-4"
-                            />
-                            <h3 className="text-white font-medium text-lg">
-                            Rp. 100.000
-                            </h3>
-                            <h3 className="text-white font-medium text-lg">
-                            www.centralbajalampung.com
-                            </h3>
-                        </div> 
-                    </div>
+                       
                    
-
-
                 </div>
             </section>
                   
