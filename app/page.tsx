@@ -68,9 +68,19 @@ export default function Home() {
                     </div>
             </section>
 
-            <div>
-                <Image src="/img/layanan-1.png" alt="Layanan 1" width={400} height={400} priority></Image>
-            </div>
+               {/* Card Layanan */}
+               <div className="flex flex-col md:flex-row items-center bg-primary rounded-lg shadow-md p-10">
+                        {/* Gambar */}
+                        <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
+                            <img
+                                src="/img/layanan3.jpg"
+                                alt="Layanan Central Baja Lampung"
+                                className="w-72 rounded-lg shadow-lg"
+                            />
+                        </div>
+                </div>
+
+                
         </>
     );
 }
