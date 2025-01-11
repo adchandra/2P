@@ -80,7 +80,14 @@ export default function Home() {
                         </div>
                 </div>
 
-                
+                {/* Deskripsi */}
+                <div>
+                            <h3 className="text-white font-medium text-lg">
+                                Central Baja Lampung menyediakan layanan jasa pemasangan atap baja ringan
+                                dengan harga murah dan desain minimalis untuk anda.
+                            </h3>
+                </div>
+                  
         </>
     );
 }
