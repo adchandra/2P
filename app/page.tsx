@@ -123,6 +123,17 @@ export default function Home() {
                         </div> 
                     </div>
                    
+            {/* Kontak */}
+            <section id="kontak" className="py-8 bg-[#ECF8F9]">
+                <div className="container mx-auto px-4">
+                    {/* Judul Kontak */}
+                    <div className="text-center mb-8">
+                        <h2 className="text-4xl font-medium text-primary">Kontak</h2>
+                    </div>
+                </div>
+            </section>
+
+
                 </div>
             </section>
                   
