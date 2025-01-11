@@ -81,36 +81,52 @@ export default function Home() {
                         {/* Deskripsi */}
                         <div>
                             <h3 className="text-white font-medium text-lg">
-                                Central Baja Lampung menyediakan layanan jasa pemasangan atap baja ringan
-                                dengan harga murah dan desain minimalis untuk anda.
+                            Central Baja Lampung menyediakan layanan profesional untuk pemasangan atap baja ringan, 
+                            dirancang khusus untuk memberikan kombinasi antara kekuatan, kepraktisan, dan estetika modern. 
+                            Dengan harga yang kompetitif, kami menawarkan solusi yang terjangkau untuk kebutuhan konstruksi 
+                            Anda, tanpa mengorbankan kualitas. Desain minimalis yang kami hadirkan tidak hanya mempercantik 
+                            tampilan bangunan Anda, tetapi juga memberikan kesan elegan dan fungsionalitas maksimal. 
+                            Percayakan kebutuhan atap baja ringan Anda kepada kami, dan nikmati hasil kerja yang rapi, tahan lama, 
+                            serta sesuai dengan kebutuhan dan harapan Anda.
                             </h3>
                         </div>
                     </div>
 
-                    {/* Card Layanan */}
-                    <div className="flex flex-col md:flex-row items-center bg-primary rounded-lg shadow-md p-10 mt-6">
-                        {/* Gambar */}
-                        <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
-                            <img
-                                src="/img/layanan3.jpg"
-                                alt="Layanan Central Baja Lampung"
-                                className="w-72 rounded-lg shadow-lg"
-                            />
-                        </div>
-
-                        {/* Deskripsi */}
-                        <div>
-                            <h3 className="text-white font-medium text-lg">
-                                Central Baja Lampung menyediakan layanan jasa pemasangan atap baja ringan
-                                dengan harga murah dan desain minimalis untuk anda.
-                            </h3>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </section>
 
-            
+            {/* Harga */}
+            <section id="harga" className="py-8 bg-[#ECF8F9]">
+                <div className="container mx-auto px-4">
+                    {/* Judul Harga */}
+                    <div className="text-center mb-8">
+                        <h2 className="text-4xl font-medium text-primary">Harga</h2>
+                    </div>
+
+                        {/* Wrapper untuk Card */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {/* Card Harga 1 */}
+                        <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
+                            <img
+                            src="/img/layanan3.jpg"
+                            alt="Harga Atap Baja Ringan"
+                            className="w-72 rounded-lg shadow-lg mb-4"
+                            />
+                            <h3 className="text-white font-medium text-lg">
+                            Rp. 100.000
+                            </h3>
+                            <h3 className="text-white font-medium text-lg">
+                            www.centralbajalampung.com
+                            </h3>
+                        </div> 
+                    </div>
+                   
+
+
+                </div>
+            </section>
                   
         </>
     );
