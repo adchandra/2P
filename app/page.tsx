@@ -60,6 +60,17 @@ export default function Home() {
             </section>
 
             {/* Layanan */}
+            <section id="layanan" className="py-8 bg-[#ECF8F9]">
+                <div className="container mx-auto px-4"></div>
+                    {/* Judul Layanan */}
+                    <div className="text-center mb-8">
+                        <h2 className="text-4xl font-medium text-primary">Layanan</h2>
+                    </div>
+            </section>
+
+            <div>
+                <Image src="/img/layanan-1.png" alt="Layanan 1" width={400} height={400} priority></Image>
+            </div>
         </>
     );
 }
