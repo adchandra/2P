@@ -61,15 +61,14 @@ export default function Home() {
 
             {/* Layanan */}
             <section id="layanan" className="py-8 bg-[#ECF8F9]">
-                <div className="container mx-auto px-4"></div>
+                <div className="container mx-auto px-4">
                     {/* Judul Layanan */}
                     <div className="text-center mb-8">
                         <h2 className="text-4xl font-medium text-primary">Layanan</h2>
                     </div>
-            </section>
 
-               {/* Card Layanan */}
-               <div className="flex flex-col md:flex-row items-center bg-primary rounded-lg shadow-md p-10">
+                    {/* Card Layanan */}
+                    <div className="flex flex-col md:flex-row items-center bg-primary rounded-lg shadow-md p-10">
                         {/* Gambar */}
                         <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
                             <img
@@ -78,15 +77,40 @@ export default function Home() {
                                 className="w-72 rounded-lg shadow-lg"
                             />
                         </div>
-                </div>
 
-                {/* Deskripsi */}
-                <div>
+                        {/* Deskripsi */}
+                        <div>
                             <h3 className="text-white font-medium text-lg">
                                 Central Baja Lampung menyediakan layanan jasa pemasangan atap baja ringan
                                 dengan harga murah dan desain minimalis untuk anda.
                             </h3>
+                        </div>
+                    </div>
+
+                    {/* Card Layanan */}
+                    <div className="flex flex-col md:flex-row items-center bg-primary rounded-lg shadow-md p-10 mt-6">
+                        {/* Gambar */}
+                        <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-6">
+                            <img
+                                src="/img/layanan3.jpg"
+                                alt="Layanan Central Baja Lampung"
+                                className="w-72 rounded-lg shadow-lg"
+                            />
+                        </div>
+
+                        {/* Deskripsi */}
+                        <div>
+                            <h3 className="text-white font-medium text-lg">
+                                Central Baja Lampung menyediakan layanan jasa pemasangan atap baja ringan
+                                dengan harga murah dan desain minimalis untuk anda.
+                            </h3>
+                        </div>
+                    </div>
+
                 </div>
+            </section>
+
+            
                   
         </>
     );
