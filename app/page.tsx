@@ -133,10 +133,8 @@ export default function Home() {
                     </div>
         
                     <div className="text-center mb-8">
-                        <h3 className="text-4xl font-medium text-primary">www.centralbajalampung.com</h3>
-                        <h3 className="text-4xl font-medium text-primary">Instagram</h3>
-                        <h3 className="text-4xl font-medium text-primary">Whatsapp</h3>
-                        <h3 className="text-4xl font-medium text-lg">www.centralbajalampung.com</h3>
+                        <h3 className="text-black font-medium text-lg">www.centralbajalampung.com</h3>
+                        <h3 className="text-black font-medium text-lg">INSTAGRAM</h3>
                     </div>
 
                 </div>
