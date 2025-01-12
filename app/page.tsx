@@ -92,8 +92,6 @@ export default function Home() {
                         </div>
                     </div>
 
-                    
-
                 </div>
             </section>
 
@@ -105,7 +103,7 @@ export default function Home() {
                         <h2 className="text-4xl font-medium text-primary">Harga</h2>
                     </div>
 
-                 {/* Wrapper untuk Card */}
+                {/* Wrapper untuk Card */}
                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* Card Harga 1 */}
                         <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
@@ -122,6 +120,9 @@ export default function Home() {
                             </h3>
                         </div> 
                     </div>
+
+                </div>
+            </section>
                    
             {/* Kontak */}
             <section id="kontak" className="py-8 bg-[#ECF8F9]">
@@ -130,12 +131,17 @@ export default function Home() {
                     <div className="text-center mb-8">
                         <h2 className="text-4xl font-medium text-primary">Kontak</h2>
                     </div>
+        
+                    <div className="text-center mb-8">
+                        <h3 className="text-4xl font-medium text-primary">www.centralbajalampung.com</h3>
+                        <h3 className="text-4xl font-medium text-primary">Instagram</h3>
+                        <h3 className="text-4xl font-medium text-primary">Whatsapp</h3>
+                        <h3 className="text-4xl font-medium text-lg">www.centralbajalampung.com</h3>
+                    </div>
+
                 </div>
             </section>
 
-
-                </div>
-            </section>
                   
         </>
     );
