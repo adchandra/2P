@@ -16,6 +16,11 @@ export default function Home() {
                     {/* Menu Navigasi */}
                     <ul className="flex space-x-8">
                         <li>
+                            <a href="#admin" className="text-gray-700 hover:text-white transition">
+                                Admin
+                            </a>
+                        </li>
+                        <li>
                             <a href="#beranda" className="text-gray-700 hover:text-white transition">
                                 Beranda
                             </a>
@@ -104,8 +109,22 @@ export default function Home() {
                     </div>
 
                 {/* Wrapper untuk Card */}
-                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {/* Card Harga 1 */}
+                        <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
+                            <img
+                            src="/img/layanan3.jpg"
+                            alt="Harga Atap Baja Ringan"
+                            className="w-72 rounded-lg shadow-lg mb-4"
+                            />
+                            <h3 className="text-white font-medium text-lg">
+                            Rp. 100.000
+                            </h3>
+                            <h3 className="text-white font-medium text-lg">
+                            www.centralbajalampung.com
+                            </h3>
+                        </div> 
+
                         <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
                             <img
                             src="/img/layanan3.jpg"
@@ -135,6 +154,7 @@ export default function Home() {
                     <div className="text-center mb-8">
                         <h3 className="text-black font-medium text-lg">www.centralbajalampung.com</h3>
                         <h3 className="text-black font-medium text-lg">INSTAGRAM</h3>
+                        <h3 className="text-black font-medium text-lg">WA 0852 1234 5678</h3>
                     </div>
 
                 </div>
