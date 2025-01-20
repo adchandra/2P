@@ -107,7 +107,7 @@ export default function Home() {
                     <div className="text-center mb-8">
                         <h2 className="text-4xl font-medium text-white">Harga</h2>
                         <span className="block text-white">
-                            Harga sudah termasuk bahan & jasa (Harga 2024)
+                            Harga sudah termasuk bahan & jasa (Harga 2025)
                         </span>
                         <span className="block text-white">Gratis konsultasi & survey lokasi</span>
                     </div>
@@ -116,7 +116,12 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {/* Card 1 */}
                         <div>
-                            <a href="#" className="no-underline">
+                            <a
+                                href="https://wa.link/go5rxx"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="ml-3 text-lg text-white hover:underline"
+                            >
                                 <div className="card-harga p-4 bg-[#ECF8F9] rounded-md shadow-md hover:bg-primary transition duration-300">
                                     <img
                                         src="/img/polos1.jpg"
@@ -137,7 +142,12 @@ export default function Home() {
 
                         {/* Card 2 */}
                         <div>
-                            <a href="#" className="no-underline">
+                            <a
+                                href="https://wa.link/go5rxx"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="ml-3 text-lg text-white hover:underline"
+                            >
                                 <div className="card-harga p-4 bg-[#ECF8F9] rounded-md shadow-md hover:bg-primary transition duration-300">
                                     <img
                                         src="/img/pols2.jpg"
@@ -160,19 +170,80 @@ export default function Home() {
             </section>
 
             {/* Kontak */}
-            <section id="kontak" className="py-8 bg-[#ECF8F9]">
-                <div className="container mx-auto px-4">
-                    {/* Judul Kontak */}
-                    <div className="text-center mb-8">
-                        <h2 className="text-4xl font-medium text-primary">Kontak</h2>
-                    </div>
+            <section
+                id="contact"
+                className="bg-cover bg-no-repeat relative"
+                style={{ backgroundImage: 'url(/img/bgkontak.jpg)' }}
+            >
+                <div className="bg-black/80 h-full">
+                    <div className="container mx-auto py-24">
+                        <div className="flex flex-wrap">
+                            {/* Kolom Kiri */}
+                            <div className="w-full md:w-1/2 ml-4 text-white">
+                                <h3 className="font-bold text-4xl leading-tight mb-8">
+                                    Butuh Konsultasi..? <br />
+                                    Silahkan hubungi Kami <br />
+                                    Kami siap membantu
+                                </h3>
+                                <div className="kontak space-y-6">
+                                    <h6 className="font-medium text-lg">Kontak</h6>
+                                    {/* Instagram */}
+                                    <div className="flex items-center">
+                                        <img
+                                            src="/img/instagram.png"
+                                            alt="Instagram"
+                                            className="h-4 w-4 bg-white rounded-full"
+                                        />
+                                        <a
+                                            href="https://www.instagram.com/centralbajalampung?igsh=Nnk4ZXljMHR1MmJn"
+                                            className="ml-3 text-lg text-white hover:underline"
+                                        >
+                                            @centralbajalampung
+                                        </a>
+                                    </div>
+                                    {/* Facebook */}
+                                    <div className="flex items-center">
+                                        <img
+                                            src="/img/facebook.png"
+                                            alt="Facebook"
+                                            className="h-4 w-4 bg-white rounded-full"
+                                        />
+                                        <a
+                                            href="https://www.facebook.com/gallerypropertylampungg?mibextid=mna8qTP8xvtPE1tK"
+                                            className="ml-3 text-lg text-white hover:underline"
+                                        >
+                                            Central Baja Lampung
+                                        </a>
+                                    </div>
+                                    {/* WhatsApp */}
+                                    <div className="flex items-center">
+                                        <img
+                                            src="/img/whatsapp.png"
+                                            alt="WhatsApp"
+                                            className="h-4 w-4 bg-white rounded-full"
+                                        />
+                                        <a
+                                            href="https://wa.me/6281944203222"
+                                            className="ml-3 text-lg text-white hover:underline"
+                                        >
+                                            0819 4420 3222
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div className="text-center mb-8">
-                        <h3 className="text-black font-medium text-lg">www.centralbajalampung.com</h3>
-                        <h3 className="text-black font-medium text-lg">INSTAGRAM</h3>
-                        <h3 className="text-black font-medium text-lg">WA 0852 1234 5678</h3>
+                            {/* Kolom Kanan */}
+                            <div className="w-full md:w-1/4 flex justify-center items-center">
+                                <div className="card-logo">
+                                    <img
+                                        src="/img/logo.png"
+                                        alt="Logo"
+                                        className="h-96 ml-12 object-contain"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </section>
 
