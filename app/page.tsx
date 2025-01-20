@@ -86,13 +86,13 @@ export default function Home() {
                         {/* Deskripsi */}
                         <div>
                             <h3 className="text-white font-medium text-lg">
-                            Central Baja Lampung menyediakan layanan profesional untuk pemasangan atap baja ringan, 
-                            dirancang khusus untuk memberikan kombinasi antara kekuatan, kepraktisan, dan estetika modern. 
-                            Dengan harga yang kompetitif, kami menawarkan solusi yang terjangkau untuk kebutuhan konstruksi 
-                            Anda, tanpa mengorbankan kualitas. Desain minimalis yang kami hadirkan tidak hanya mempercantik 
-                            tampilan bangunan Anda, tetapi juga memberikan kesan elegan dan fungsionalitas maksimal. 
-                            Percayakan kebutuhan atap baja ringan Anda kepada kami, dan nikmati hasil kerja yang rapi, tahan lama, 
-                            serta sesuai dengan kebutuhan dan harapan Anda.
+                                Central Baja Lampung menyediakan layanan profesional untuk pemasangan atap baja ringan,
+                                dirancang khusus untuk memberikan kombinasi antara kekuatan, kepraktisan, dan estetika modern.
+                                Dengan harga yang kompetitif, kami menawarkan solusi yang terjangkau untuk kebutuhan konstruksi
+                                Anda, tanpa mengorbankan kualitas. Desain minimalis yang kami hadirkan tidak hanya mempercantik
+                                tampilan bangunan Anda, tetapi juga memberikan kesan elegan dan fungsionalitas maksimal.
+                                Percayakan kebutuhan atap baja ringan Anda kepada kami, dan nikmati hasil kerja yang rapi, tahan lama,
+                                serta sesuai dengan kebutuhan dan harapan Anda.
                             </h3>
                         </div>
                     </div>
@@ -101,63 +101,64 @@ export default function Home() {
             </section>
 
             {/* Harga */}
-            <section id="harga" className="py-8 bg-[#ECF8F9]">
+            <section id="harga" className="py-12 bg-primary">
                 <div className="container mx-auto px-4">
                     {/* Judul Harga */}
                     <div className="text-center mb-8">
-                        <h2 className="text-4xl font-medium text-primary">Harga</h2>
+                        <h2 className="text-4xl font-medium text-white">Harga</h2>
+                        <span className="block text-white">
+                            Harga sudah termasuk bahan & jasa (Harga 2024)
+                        </span>
+                        <span className="block text-white">Gratis konsultasi & survey lokasi</span>
                     </div>
 
-                {/* Wrapper untuk Card */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                        {/* Card Harga 1 */}
-                        <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
-                            <img
-                            src="/img/layanan3.jpg"
-                            alt="Harga Atap Baja Ringan"
-                            className="w-72 rounded-lg shadow-lg mb-4"
-                            />
-                            <h3 className="text-white font-medium text-lg">
-                            Rp. 100.000
-                            </h3>
-                            <h3 className="text-white font-medium text-lg">
-                            www.centralbajalampung.com
-                            </h3>
-                        </div> 
+                    {/* Card Harga */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {/* Card 1 */}
+                        <div>
+                            <a href="#" className="no-underline">
+                                <div className="card-harga p-4 bg-[#ECF8F9] rounded-md shadow-md hover:bg-primary transition duration-300">
+                                    <img
+                                        src="/img/polos1.jpg"
+                                        alt="Spandek Polos 0.25 mm"
+                                        className="w-full rounded-md"
+                                    />
+                                    <div className="mt-4 text-center">
+                                        <h4 className="text-xl font-bold text-black hover:text-[#ECF8F9] transition duration-300">
+                                            Spandek Polos 0.25 mm
+                                        </h4>
+                                        <h6 className="text-lg text-black hover:text-[#ECF8F9] transition duration-300">
+                                            IDR.150.000/Meter<sup>2</sup>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
 
-                        <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
-                            <img
-                            src="/img/layanan3.jpg"
-                            alt="Harga Atap Baja Ringan"
-                            className="w-72 rounded-lg shadow-lg mb-4"
-                            />
-                            <h3 className="text-white font-medium text-lg">
-                            Rp. 100.000
-                            </h3>
-                            <h3 className="text-white font-medium text-lg">
-                            www.centralbajalampung.com
-                            </h3>
-                        </div> 
-
-                        <div className="flex flex-col items-center bg-primary rounded-lg shadow-md p-6">
-                            <img
-                            src="/img/layanan3.jpg"
-                            alt="Harga Atap Baja Ringan"
-                            className="w-72 rounded-lg shadow-lg mb-4"
-                            />
-                            <h3 className="text-white font-medium text-lg">
-                            Rp. 100.000
-                            </h3>
-                            <h3 className="text-white font-medium text-lg">
-                            www.centralbajalampung.com
-                            </h3>
-                        </div> 
-
+                        {/* Card 2 */}
+                        <div>
+                            <a href="#" className="no-underline">
+                                <div className="card-harga p-4 bg-[#ECF8F9] rounded-md shadow-md hover:bg-primary transition duration-300">
+                                    <img
+                                        src="/img/pols2.jpg"
+                                        alt="Spandek Polos 0.25 mm"
+                                        className="w-full rounded-md"
+                                    />
+                                    <div className="mt-4 text-center">
+                                        <h4 className="text-xl font-bold text-black hover:text-[#ECF8F9] transition duration-300">
+                                            Spandek Polos 0.25 mm
+                                        </h4>
+                                        <h6 className="text-lg text-black hover:text-[#ECF8F9] transition duration-300">
+                                            IDR.150.000/Meter<sup>2</sup>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-
                 </div>
             </section>
-                   
+
             {/* Kontak */}
             <section id="kontak" className="py-8 bg-[#ECF8F9]">
                 <div className="container mx-auto px-4">
@@ -165,7 +166,7 @@ export default function Home() {
                     <div className="text-center mb-8">
                         <h2 className="text-4xl font-medium text-primary">Kontak</h2>
                     </div>
-        
+
                     <div className="text-center mb-8">
                         <h3 className="text-black font-medium text-lg">www.centralbajalampung.com</h3>
                         <h3 className="text-black font-medium text-lg">INSTAGRAM</h3>
@@ -175,7 +176,7 @@ export default function Home() {
                 </div>
             </section>
 
-                  
+
         </>
     );
 }
