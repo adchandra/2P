@@ -16,7 +16,7 @@ export default function Home() {
                     {/* Menu Navigasi */}
                     <ul className="flex space-x-8">
                         <li>
-                            <a href="#admin" className="text-gray-700 hover:text-white transition">
+                            <a href="/admin" className="text-gray-700 hover:text-white transition">
                                 Admin
                             </a>
                         </li>
